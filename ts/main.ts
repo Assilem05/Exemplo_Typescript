@@ -12,4 +12,6 @@ namespace empresa{
 
     document.getElementById("codCliente").textContent = c.codCliente.toString();
     document.getElementById("credito").textContent = c.credito.toString();
+
+    document.getElementById("compra").textContent = c.comprar(2000,500);
 }
