@@ -3,6 +3,10 @@ namespace empresa{
         private _nome:string;
         private _idade:number;
 
+        constructor(nome:string){
+            this.nome = nome;
+        }
+
         get nome(){
             return this._nome;
         }
