@@ -16,6 +16,7 @@ namespace empresa{
             return this.logradouro + ' ' + this.cidade;
         }
 
+        
         get bonus():number{
             return this._bonus;
         }

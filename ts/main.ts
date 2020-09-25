@@ -4,9 +4,9 @@ namespace empresa{
 
     let c = new Cliente("Luka",154);
     //c.nome = "Luka";
+    //c.codCliente = 154;
     c.idade = 21;
-    c.credito = 1500;
-    //c.codCliente = 154; 
+    c.credito = 1500; 
 
     document.getElementById("nome").textContent = c.nome;
     document.getElementById("idade").textContent = c.idade.toString();
